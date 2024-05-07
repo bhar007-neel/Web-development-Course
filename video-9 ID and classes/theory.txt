@@ -1,0 +1,3 @@
+An ID is an attrubute, a unique identifier assigned to only one HTML element with a page. it is often used for unique styling and javascript manipulations.
+class - if u wanna give multiple properties to the same elements. u can declare a class.
+an  element can have multiple classes.

@@ -1,0 +1,8 @@
+HTML forms are used to submit documents on flight pages.
+we use get request to ask the server from the backend.
+input tags- phn,age,name
+and lable tags to lable them
+
+in label tag we will treat for as a unique indentifier for right now.
+in input type for the gender selection we made the name same because then it lets us select only one at once.
+if we have a input id in the label tags

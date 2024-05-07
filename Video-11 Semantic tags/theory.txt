@@ -1,0 +1,2 @@
+Using semantic tags are greatly benefit for both of your website's mentainability of your code they offer a way to struutr your HTML in a meaningful manner. Makin your website more more accessable and easier to understand.
+

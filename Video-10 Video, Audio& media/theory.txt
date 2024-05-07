@@ -1,0 +1,16 @@
+In the audio tag preload tag is bit confusing  so here it goes-
+it Spacifies the audio should be loaded when the page loads 
+it has few attributes------
+1. none- this is the default values that indicates that video should not be loaded
+2. METADATA- this value tells the browser to preload onlu the metadata of ythe audio file such as duration and basic information about the video
+3. AUTO- this tag tells the browser to preload all the files as much as posiible without delaying the loading of the other important page content.
+
+.
+
+We creted SVG after thst today
+and created a seperate file for that 
+
+IFRAMES-- is to embedd different websites in your websites.
+just use the syntex and then add the url u want to add.
+
+you can also embedd youtube videos just go in embedd options and it will give u a code, u can also select the timmings where to start from

@@ -1,0 +1,8 @@
+Inline elememts only takes the required space
+where
+Block elememts takes the whole width of the screen.
+it can also be called Display property and can be used in CSS.
+
+
+As we studied differentb tags throughout the video and got to know that some of the tags are inline and some are block but later on css we will learn we change their to characterisitics to one another.
+

@@ -1,0 +1,3 @@
+&lt; refers to < and &gt; refers to > is used for the things that colide with the HTML syntex. this is also called entities.
+&nbsp; to add spaces 
+we have quotation text, citation tag too 
