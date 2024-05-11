@@ -1,0 +1,19 @@
+                                        BOX MODEL in CSS
+                                     
+                                        MARGIN
+                                        BORDER
+                                        PADDING
+                                        YOUR CONTENT
+                                        PADDING
+                                        BORDER
+                                        MARGIN
+
+
+ Our background color is in the PADDING area not in the margin 
+
+ Calculating the total dimension of the element--
+ total width- width + (left + right) padding +(left + right)Border +(left + right) margin
+
+ TOtal Height = height +(top+bottom)PaDDING =(top+bottom)bORDER + (top+bottom)MARGIN 
+
+ If i gave height to my content suppose 200px, then the only content is 200,and its total space will be obtained by adding margin padding border and so on otherwise if i use box-sizing:box Border then it will be 200 including  content, border and padding BUT NOT MARGIN.

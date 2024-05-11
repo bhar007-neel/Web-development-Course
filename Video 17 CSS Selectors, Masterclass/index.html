@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element selector */
+        div{
+            /* background-color: red; */
+        }
+        /* class selector */
+        .red{
+            background-color: red;
+        }
+        /* ID Selector */
+        #green{
+            background-color: green;
+        }
+        /* CHILD SELECTORS -- it means it should be a direct selector that means div should have p underneath directly*/
+        div> P{
+            color:blue ;
+            background-color: brown;
+        }
+        /* DESCENDANT SELECTOR--- in this it does not matter, it can be direct or indirect. */
+        div P{
+            color:blue ;
+            background-color: brown;
+        }
+        /* UNIVERSAL SELECTOR-- giving the spacing between the items it */
+        *{
+            margin:0;
+            padding:0;
+        }
+         /* PSEUDO SELECTOR --they will change the color once visited,, they go with the anchor tags */
+         /* a visited will change the color once the website has been visited */
+         /* a link will the color of the link specified in the website */
+         /* a hover will change the colorb when u point your mouse at it */
+         a:visited{
+            color:yellow
+        
+         }
+         a:link{
+            color:green
+         }
+         a:active{
+            background-color: red;
+         }
+         a:hover{
+            background-color: yellow;
+         }
+         p:first-child{
+            background-color: aqua;
+         }
+
+
+    </style>
+</head>
+<body>
+    <!-- look we changed the div class to red to, therfore .red will have a background-color -->
+    <main class="one">
+        <!-- it will change on line 63 only bc it is only the first line -->
+        <p>i am first</p>
+        <p>i am second</p>
+        </main>
+    <div class ="red">
+        I am a div
+        <P> I am para inside div</P>
+    </div>
+    <div id="green">
+        i am another div
+    </div>
+    <a href="https://www.google.com">GO TO GOOGLE</a>
+    
+</body>
+</html>

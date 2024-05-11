@@ -1,0 +1,43 @@
+Suppose we assign 2 background color to one paragraph at the same time, now which one will be given power to go first. lets learn that
+
+
+so CSS has cascade alroithm, that determines whicvh property will apply.
+
+
+4 rules-
+
+  1. positon, order of appearence
+so if they all are class selector, the one thats placed at the really end will win.
+now what if we have id selector or element selector, then it ALL goes down to specifity, 
+what is specifity???
+it is a value, in terms which selector is most speciific...
+Inline selector is considered more specific and then comes Id selector more specific.
+example of inline selector---- in body -- in div--- <h1 style ="color:blue" class ="yellow cred cpurple"> </h1> </div>
+so it will go for Blue without even thinking anything.
+if this <h1 style = class ="yellow cred cpurple"> now depend on them how specific are them.
+  
+  Inline style>> id selector>> class or attribute selector>> element selector>> universal selector(this one is *)
+
+
+
+
+         2. specificity
+
+
+
+
+
+         3.origin ---- it comes browers style sheet(USER AGENT STYLE SHEET)
+
+
+
+
+
+        4.importance ==== it u put (!important) then it is really important therefore CSS has to implement it.
+
+
+
+        specificity calculation-- look online!!!
+
+
+    

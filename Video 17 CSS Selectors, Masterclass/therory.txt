@@ -1,0 +1,1 @@
+selectors are used to select elements that we can style.(IMPORTANT CONCEPT)

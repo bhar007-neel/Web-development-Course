@@ -1,0 +1,8 @@
+3 ways to add CSS into HTML--
+inline -Using style attribute
+Internal CSS - it means add a style tag and place the HTML Page" style within it .
+External CSS - It is the most used one , it means create a .css file and place all yout style inside that file.
+
+
+In inline CSS if we see we need to add style to each line where as in Internal we just gave style to tags and it will add style to that tags.
+but as we keep adding the tags in our HTML file for CSS\, our file going to keep on growing, thetrfore it is better to have your own file for CSS therfore that is external CSS
