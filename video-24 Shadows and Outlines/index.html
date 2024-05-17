@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows and Outlines</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            margin: 0;
+            padding: 34px;
+            box-shadow: 5px 15px 5px #41b813;
+
+        }
+        .text-element{
+            text-shadow: 2px 2px 4px #e91414;
+            outline: 2px solid black;
+            border: 2px solid green;
+            /* So make sure there is a difference betwenn outline and border, outline is outer one as compared to border.
+            outline is not a component of box properties */
+            /* Rounded corners  borders have rounded corners using border radius but ouline willfollow border */
+            border-radius: 12px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        I  am a box
+    </div>
+    <p class="text-element">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur illum dolore maiores dolores deleniti, et quis odio sequi quisquam, at perferendis provident unde explicabo facilis nulla nisi reprehenderit rerum alias sunt exercitationem. Delectus, voluptatem natus possimus ipsam labore illum quasi tenetur soluta, corrupti earum porro!</p>    
+</body>
+</html>

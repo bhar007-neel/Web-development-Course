@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS sizing Units.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width:2048 px; we not going to use pixcel because what if we change our device. */
+            width: 80vw;
+            height: 10vh;
+            /* to center the div we do margin auto, cant do same with span */
+            margin: auto;
+            background-color: aquamarine;
+        }
+
+        .container {
+
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* vw = view width and vh means height */
+            width: 80vw;
+            /* height:80 vh; */
+            min-height: 80vh;
+            margin: 23px auto;
+            font-size: 16px;
+            background-color: aquamarine;
+
+        }
+
+        html {
+            font-size: 18px;
+        }
+
+        .container > div {
+            font-size: 2em;
+            width: 50%;
+            border: 2px solid red;
+
+        }
+
+        .container > p div {
+            font-size: 2em;
+            width: 50%;
+            border: 2px solid blue;
+
+        }
+
+
+        .mycont {
+            font-size: 22px;
+            box-sizing: border-box;
+            color: red;
+            border: 2px solid black;
+            width: 80vw;
+            /* width: 100vmin */
+            margin: 23px auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box"> this is a box</div>
+    <div class="container">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis voluptates temporibus recusandae magnam,
+            aperiam voluptatem alias, nam dolorem illum accusantium deleniti laboriosam molestias expedita, eos
+            blanditiis sequi velit odit perspiciatis modi! Voluptate quasi earum ratione fugiat atque? Illo placeat
+            rerum porro tempora assumenda consectetur perferendis alias delectus facilis minus eligendi impedit quas
+            explicabo, deserunt beatae omnis.</p>
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi rerum voluptate quo consequatur perspiciatis.
+            Vitae odit blanditiis quis optio suscipit ratione dolorem ipsam, quod ullam consequatur architecto itaque
+            voluptas ad incidunt dolorum iusto deleniti magni laudantium mollitia! Aliquam dignissimos architecto
+            assumenda sint adipisci. Nostrum eligendi magnam, odio doloremque necessitatibus, nemo modi aliquid tempore
+            ea asperiores est impedit temporibus, quia autem cumque aut soluta mollitia in eveniet magni atque? Officia,
+            vero suscipit sequi quia quasi neque natus facere odio laboriosam porro quis id, cumque animi. Voluptate
+            minima officiis assumenda facere, tempore aliquam dignissimos consequatur non vero voluptas quo sit odio at?
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum cum voluptatum necessitatibus
+                quibusdam aliquid magnam molestias unde, nobis dignissimos, excepturi iste odio magni voluptas illum,
+                quaerat quos reiciendis quis iure.</div>
+            </div>
+    </div>
+    <div class="mycont"> I am another container</div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries </title>
+    <!-- So when we built our own website, it is assumed that it will be responsive, Responsive means that website should also run on Phone, To do that we have to write our own code that states that our website can run anywhere, this thing is called Media Queries. -->
+    <style>
+
+        .boxes{
+            display: flex;
+        }
+        @media screen and (orientaion: portrait) {
+            body{
+                border: 2px solid purple;
+            }
+        }
+
+        body{
+            background-color: red;
+        }
+
+        @media only screen and (max-width:455px){
+            body{
+                background-color: blue;
+            }
+        }
+        .box{
+            width: 344px;
+            height: 344px;
+            background-color: yellow;
+            padding: 3px;margin: 3px;
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div>
+        hey I am a Red body Guy
+    </div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+      
+    </div>
+    
+</body>
+</html>

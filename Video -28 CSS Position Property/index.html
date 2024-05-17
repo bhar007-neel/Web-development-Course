@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .box1 {
+            background-color: antiquewhite;
+            /* position: absolute; */
+            /*  so top 0 applies to nearest position ancestor , here we can see that div box class 1 was position to 0 then it asks its parent div..        ARE U POISIOTNED HE SAY NO BUT LETS CHECK MY ANCESTOR, THEN HE ASKS BODY BODY SAYS LEMEE ASK MY DADDDY HE SAYS NO TOO THERFORE IT GOES UP TO REALLU TOP , now lets position absolute to parent*/
+            /* top: 0; */
+            /* left: 3px; */
+            position: sticky;
+            top: 0px;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            height: 111px;
+        }
+
+        /* EXCEPTION---Position sticky hold the box1 to the same position which means it is going to act as a nav bar in bar website, as we keep scroliing down it will keep moving with us */
+        .box2 {
+            background-color: aliceblue;
+            position: relative;
+            /* top: 34px; */
+            /* left: 56px; */
+        }
+
+        .box3 {
+            /* background-color: purple;
+            position: fixed;
+            bottom: 0px;
+            left:8vw;
+            height: 111px;  */
+        }
+
+        .box4 {
+            background-color: blue;
+        }
+
+        .box {
+
+            height: 200px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid black;
+        }
+        /* trasnsform, filter, or pererspectivr properties can also make an elemnrt appear as positioned */
+        .parent {
+            margin: 34px;
+            padding: 43px;
+            border: 3px solid purple;
+            /* position: absolute; */
+            /* position: relative; */
+            /* transform: translate(0); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+</body>
+
+</html>

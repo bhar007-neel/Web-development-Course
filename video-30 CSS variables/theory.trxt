@@ -1,0 +1,1 @@
+Inside the root we declared global variable, and as soon as the color is declared we declared var in our style and we change the color which that means is we can use that var and add that color at 50 different places in our website, therefor it is much easier and helpful.

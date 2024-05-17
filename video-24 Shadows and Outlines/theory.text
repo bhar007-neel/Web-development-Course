@@ -1,0 +1,6 @@
+shadows to give shadowstotext, easy peasy
+
+box shadow syntex
+box- hsadow: h-offset v-offset blur spread color inset
+
+outline: width style color

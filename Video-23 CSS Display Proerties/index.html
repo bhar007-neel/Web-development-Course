@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display proeperty</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid blue;
+            /* used inline block inside of inline because padding and magin does not work with that  */
+            display: inline-bock;
+            width : 344px;
+            margin: 34px;
+            padding: 45px;
+
+        }
+        .box1{
+            /* display: none; */
+            /* visibility: hidden ; */
+            /* display: flex; */
+            /* justify-content: center; */
+            /* display: inline-flex; */
+            /* display: grid; */
+
+        }
+
+
+        
+
+    </style>
+</head>
+<body>
+    <!-- https://developer.mozilla.org/en-US/docs/web/CSS/display -->
+    <div class="box box1">
+        I am box.
+    </div>
+    <div class="box">
+        also a nicebox
+    </div>
+    <span>I am a good boy</span>
+    
+</body>
+</html>

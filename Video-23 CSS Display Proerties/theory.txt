@@ -1,0 +1,3 @@
+there are some default display values in the CSS wewill learn, how to change it.
+
+so while doing our  code herewe know that div and span are block text, they take the whole space of the line, but when we declare then inline in our style tag, both div and span default properties are changed and they are converted to inline text.
