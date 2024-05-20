@@ -1,0 +1,7 @@
+Items in flexbox are not left to right they are of flex direction like column, rows, coloum-reverse, rows-reverse.
+
+what if our flex items are overflowed then we use wrap
+
+the more the order number, more late it will come
+
+flex gorw is also an item property where it takes times the propertyof another item.
