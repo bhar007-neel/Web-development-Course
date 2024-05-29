@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container {
+            background-color: green;
+            height: 80vh;
+            width: 30vw;
+
+        }
+
+        .box {
+            background-color: yellow;
+            height: 45px;
+            width: 34px;
+            /* animation: neelkaanimation;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ecubic-bezier(0, 1.08, 0, 1.26);
+          animation-delay: 2s;
+          /* animation-direction: alternate-reverse; */
+            /* animation-play-state: running;  */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: neelkaanimation 3s ease-in-out infinite,
+                    neel2 1s ease-in-out 3s 1; 
+        }
+
+        @keyframes neelkaanimation {
+            from {
+                background-color: red;
+
+            }
+
+            to {
+                background-color: yellow;
+                transform: translateX(1000px);
+            }
+        }
+
+            @keyframes neel2 {
+                0% {
+                    transform: rotate(100deg);
+                }
+
+                20% {
+                    transform:rotate(200deg);
+                }
+
+                50% {
+                    transform: rotate(220deg);
+                }
+
+                80% {
+                    transform: rotate(300deg);
+                }
+
+                100% {
+                    transform: rotate(310deg);
+                }
+
+            }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+some additional tings to learn after going through grid oen and two
+so the below code will take 80 view port and then distribute into 1fr 1fr 1fr
+.container {
+            width:80vw;
+            border: 2px solid rgb(20, 20, 6);
+            display: grid;
+            grid-tempalte-coloumn:1fr 1 fr 1fr
+            /*+gap :34px*/
+            row-gap:10px
+            coloum-gap-44px
+        }
+dont usepadding in grid
