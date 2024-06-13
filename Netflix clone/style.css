@@ -91,8 +91,12 @@ nav button {
 
 .btn {
     padding: 3px 8px;
-    font-weight: bold;
-    background-color: white;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248,243,243,0.342);
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
 
 }
 
@@ -104,14 +108,66 @@ nav button {
     color: white;
 }
 
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
 .main input{
-    padding: 3px 24px;
-    font-size: 24px;
-    border-radius: 4px;
+    padding: 7px 101px 8px 14px;
     
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+    position: relative;
 }
 
 .btn-red-sm {
     background-color: red;
     color: white;
 }
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin:auto;
+    color: white;
+    align-items: center;
+}
+.secImg{
+    position: relative;
+}
+
+
+.secImg img{
+ width: 30vw;
+ position: relative;
+ z-index: 10;
+ 
+}
+
+.secImg video{
+ position: absolute;
+ top: 51px;
+ right: 0;
+ 
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first > div :nth-child(2){
+    font-size: 24px;
+   
+}
+
