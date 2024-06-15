@@ -1,0 +1,5 @@
+console.log- to print something at console.
+confirm- to make user click on yes or no., when the page is loaded
+var a - declaring a variable
+prompt- asking user to give input
+alert- just giving alert to the user when the site i loaded

@@ -1,0 +1,4 @@
+termary operators
+c= a>b ?(a-b):(b-a)   that means if a>b then c = a-b else c=b-a
+
+/* multi line comment */ 

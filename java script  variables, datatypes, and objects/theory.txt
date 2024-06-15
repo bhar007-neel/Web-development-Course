@@ -1,0 +1,10 @@
+variable is a conatiner that stores values. 
+VAR VS Let in jsc------  var is global , let is block element
+whereas const is fixed.
+
+
+
+primitive data types- inbuilt in jsc whereas object that a user makes.
+
+primitive datatypes in jsc- 1. null , Number, string, symbol, undefined- variable declared but value not given, Boolean, Big Int.
+
