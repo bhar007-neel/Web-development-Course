@@ -1,0 +1,8 @@
+it is a framework to do web development with help of node js. we can made production level application with this system
+
+
+what is express?
+why should we we use it?
+
+
+http package is limited, therefore express is helpful, it is only used to make web application.
