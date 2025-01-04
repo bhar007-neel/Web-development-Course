@@ -24,7 +24,8 @@ This **To-Do App** is built with **React**, focusing on using state and event ha
 
 ## Demo - click on the thumbnail for demo
 
-[![Middle Video Thumbnail](./path/to/middle-thumbnail.jpg)](https://youtu.be/PM3a91X3Z3k)
+[![Video Thumbnail](https://img.youtube.com/vi/PM3a91X3Z3k/maxresdefault.jpg)](https://youtu.be/PM3a91X3Z3k)
+
 
 
 ### Tech Used:
