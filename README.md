@@ -5,7 +5,8 @@ Welcome to my Web Development Portfolio! In this repository, I have uploaded var
 ## Netflix Clone
 ## Demo - click on the thumbnail for demo
 
-[![Netflix Clone](./path-to-thumbnail.png)](https://youtu.be/m5-ljQ4MGv8?si=GC0PAPJB547kueA2)
+[![Video Thumbnail](https://img.youtube.com/vi/m5-ljQ4MGv8/maxresdefault.jpg)](https://youtu.be/m5-ljQ4MGv8)
+
 
 ##Website-https://cool-taffy-65f80c.netlify.app/
 
