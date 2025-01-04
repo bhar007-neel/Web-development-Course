@@ -22,6 +22,11 @@ In this project, I focused on creating a responsive layout with interactive elem
 
 This **To-Do App** is built with **React**, focusing on using state and event handling to create a functional task manager.
 
+## Demo - click on the thumbnail for demo
+
+[![Middle Video Thumbnail](./path/to/middle-thumbnail.jpg)](https://youtu.be/PM3a91X3Z3k)
+
+
 ### Tech Used:
 - **React**
 
