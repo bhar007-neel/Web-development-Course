@@ -3,6 +3,11 @@
 Welcome to my Web Development Portfolio! In this repository, I have uploaded various files demonstrating my learning journey through web development. This includes projects where I applied my knowledge and skills gained during my course. Below are the details of the two projects I’ve worked on:
 
 ## Netflix Clone
+## Demo - click on the thumbnail for demo
+
+[![Netflix Clone](./path-to-thumbnail.png)](https://youtu.be/m5-ljQ4MGv8?si=GC0PAPJB547kueA2)
+
+##Website-https://cool-taffy-65f80c.netlify.app/
 
 This is a **Netflix clone** project that mimics the design and functionality of Netflix. It was built using basic web technologies.
 
